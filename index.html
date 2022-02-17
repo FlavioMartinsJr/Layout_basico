@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Flavio">
+    <meta name="discription" content=" Estrutura de layout">
+    <title>Layout</title>
+
+   <link rel="stylesheet" href="estilo.css"><!--  usa esse tipo de link para se fazer viculação com os css externos -->
+</head>
+<body>
+   <div id="principal"><!-- serve para criar uma estrutura -->
+        <header class="hed"><!--                 header, é o cabeçario superior da pagina -->
+            <nav><!--                nav, serve como menu principal ou seja vai da valor titulo para texto -->
+                <ul>
+                    <li><a href="layout_base01.html">Inicio</a></li>
+                    <li><a href="#">Quem sou eu</a></li>
+                    <li><a href="#">Contato</a></li> 
+                </ul>
+            </nav>
+            <div class="formato">
+                <h1>Curso Web Fundamentos</h1>
+                <p>Aprenda HTML, CSS e JavaScript</p>
+            </div>
+        </header>
+        <!-- fim da primeira parte da pagina -->
+        <!-- 
+
+            MEIO DA PAGINA
+
+         -->    
+        <main><!--                   main, defini o conteúdo principal da página ou da aplicação. -->
+            <section class="content"><!--            section, é utilizada para marcar as seções de conteúdo -->
+               
+                <div class="card">
+                    <img src="imagens/card_01.png" alt="">
+                    <p>Seletores</p>
+                </div>
+                <!-- primeiro card -->
+                <div class="card">
+                    <img src="imagens/card_04.jpg" alt="">
+                    <p>Posicionamento</p>
+                </div>
+                <!-- segundo card -->
+                <div class="card">
+                    <img src="imagens/card_03.jpg" alt="">
+                    <p>Fontes e Ícones</p>
+                </div>
+                <!-- terceiro card-->
+
+            </section>
+            <!-- fim primeira divisão da segunda parte da pagina -->
+
+            <section class="content">
+                <article><!--        article, trata o bloco como conteudo de text -->
+                    <header class="her-two">
+                        <h2>titulo</h2>
+                    </header>
+                    <p>Primeiro paragrafo de exemplo</p>
+                    <p>Segundo paragrafo de exemplo</p>
+                </article>
+            </section>
+            <!-- fim ultima divisão da segunda parte da pagina -->
+
+        </main>
+        <!-- fim da segunda parte da pagina -->
+        <!-- 
+
+            FINAL COM RODAPE
+
+         -->
+        <footer><!--                footer, server como rodape -->
+
+            <p>Copyright &copy; 2022</p>
+
+        </footer>
+        <!-- rodape da pagina -->
+   </div>
+    <!-- fim da wrapper -->
+</body>
+</html>
