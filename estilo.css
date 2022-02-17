@@ -4,7 +4,7 @@ body{
     margin: 0px;
 }
 .hed{
-    background-image: url(https://github.com/FlavioMartinsJr/Layout_basico/blob/main/imagens/bg-3.jpg);
+    background-image: url(imagens/bg-3.jpg);
     background-position: right center;
     background-size: cover;
     height: 400px;
